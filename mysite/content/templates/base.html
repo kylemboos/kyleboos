@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div id="main-content" class="container">
+    <div id="main-content">
         {% block narrow-content %}
         {% endblock %}
     </div>
@@ -28,6 +28,6 @@
 		{% endblock %}
     </footer>
 	
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="{% static 'js/jquery.js' %}"></script>
 </body>
 </html>
