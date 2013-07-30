@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Kyle Boos</title>
+	
+	{% load staticfiles %}
+    <!-- Bootstrap core CSS -->
+	<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css" />
+    <!-- Custom styles for this template -->
+	<link href="{% static 'css/kyleboos.css' %}" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="main-content" class="container">
+        {% block narrow-content %}
+        {% endblock %}
+    </div>
+
+    <footer>
+        {% block contact-container %}
+		{% endblock %}
+		{% block tab-container}
+		{% endblock %}
+    </footer>
+	
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+</body>
+</html>

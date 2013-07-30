@@ -1,4 +1,22 @@
 python modules for the site:
--footer
+
 -blog
--content-lister
+-content
+--------------------------------------------------------------------------
+
+body
+	main-content
+		narrow-content
+		
+		
+footer
+	contact-container
+		icon-holder
+			ul
+		image-holder
+			a/img
+	tab-container
+		menu-list(ul)
+			tabs
+			
+		
