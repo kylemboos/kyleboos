@@ -18,5 +18,11 @@ footer
 	tab-container
 		menu-list(ul)
 			tabs
+
+--------------------------------------------------------------------------
+
+need to fix location of the text in the narrow content section
+
+need to figure out the image in django / image container css
 			
 		
