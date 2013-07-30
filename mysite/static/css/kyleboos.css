@@ -53,18 +53,26 @@ a{
 .current-menu-item a:hover, a:focus {
 	color: rgba(255, 255, 255, 1.0);
 }
+
 #contact-image{
 	/*background: url() no-repeat;*/
 	display: block;
-	height: 145px;
-	width: 205px;
+	height: 257px;
+	width: 384px;
+}
+
+#social-icons{
+	left: 20%;
+	position: relative;
 }
 
 #contact-container{
+	
 	bottom: 0;
-	left: 5%;
+	right: 5%;
 	position: fixed;
 }
+
 
 li{
 	font: inherit;
@@ -86,7 +94,7 @@ li{
 #tab-container{
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	bottom: -10px;
-	right: 5%;
+	left: 5%;
 	height: 90%;
 	position: absolute;
 }
