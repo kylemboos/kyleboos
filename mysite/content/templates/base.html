@@ -17,17 +17,23 @@
 
 <body>
     <div id="main-content">
-        {% block narrow-contesnt %}
+        {% block narrow-content %}
         {% endblock %}
+
     </div>
 
-    <footer>
+    <footer class="#footer">
 		<div id="contact-container">
-			
+			<img class="contact-image" href="{% static 'img/default.jpg'%}"></img>
 		</div>
 		
-		<div id ="tab-container">
-		
+		<div id ="footer-tab-container">
+			<ul id="tab-container">
+				<li class="current-menu-item">A</li>
+				<li>P</li>
+				<li>B</li>
+				<li>R</li>
+			</ul>
 		</div>
         
     </footer>
