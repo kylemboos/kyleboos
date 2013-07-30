@@ -21,8 +21,10 @@ footer
 
 --------------------------------------------------------------------------
 
-need to fix location of the text in the narrow content section
+need to relink all of the social media icons
 
-need to figure out the image in django / image container css
+need to fix pointer for tab links
+
+need to use javascript to correctly add the correct active tab class
 			
 		
