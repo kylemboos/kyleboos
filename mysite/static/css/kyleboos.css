@@ -4,8 +4,11 @@ body {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	height:100%;
 	font-size: 100%;
 	vertical-align: baseline;
+	
+	
   /* The html and body elements cannot have any padding or margin. */
 }
 a{
@@ -18,33 +21,36 @@ a{
 #main-content {
 	
 	/*height: auto !important;*/
-	/* Negative indent footer by its height */
-	margin: 0 auto -60px;
-	/* Pad bottom by footer height */
-	padding: 0 0 60px;
+	/* Negative indent footer by its height 
+	margin: 0 auto;*/
+	min-height:100%
+	
 }
 
+/*
 ::-webkit-scrollbar { 
-    display: none; 
+    display: none;
 }
+*/
+
 
 .narrow-content{
-	margin: 0 auto;
+	margin: 0px auto 0;
 	min-width: 500px;
 	max-width: 800px;
-	padding: 120px 0;
-	width: 50%;
-	height:700px;
-	overflow: auto;
+	padding-bottom: 60px;
+	padding-top:100px;
+	width: 100%;
 	
-	
-
 	
 	
 }
+
 
 #about-content{
 	margin-right: 30%;	
+	
+
 }
 
 #blog-content{
@@ -138,6 +144,7 @@ li{
 
 #footer-tab-container{
 	margin: 0;
+	height:60px;
 	
 }
 
@@ -145,10 +152,10 @@ li{
 #tab-container{
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	font-size: 0.9em;
-	bottom: -10px;
+	bottom: 0px;
 	left: 0%;
-	height: 8%;
-	position: fixed;
+	height: 60px;
+	position: relative;
 }
 
 .hidden{
@@ -159,12 +166,12 @@ li{
 
 /* Set the fixed height of the footer here */
 footer {
-	bottom: 0;
-	height:	10%;
-	min-height: 60px;
-	position: absolute;
+	
+	height: 60px;
+	margin-top:-60px;
+	position: relative;
 	text-transform: uppercase;
-	width: 100%;
+	clear:both;
 	font-size: 1.8em;
 	font-style: normal;
 	font-weight: normal;
