@@ -7,6 +7,10 @@ from django.conf.urls import patterns, include, url
 urlpatterns = patterns('',
     # Examples:
      url(r'^$', 'mysite.content.views.home', name='home'),
+	 url(r'^blog/', 'mysite.content.views.blog', name='blog'),
+	 url(r'^projects/', 'mysite.content.views.projects', name='projects'),
+	 url(r'^resume/', 'mysite.content.views.resume', name='resume'),
+	 url(r'^about', 'mysite.content.views.about', name='about'),
     # url(r'^mysite/', include('mysite.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

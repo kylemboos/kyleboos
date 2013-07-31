@@ -28,31 +28,31 @@
 
     </div>
 
-    <footer class="#footer">
-		<div id="contact-container">
-			<div id="social-icons">
-				<a href="www.linkedin.com/in/kyleboos/"><img src="{% static 'img/li.jpg'%}" width="54" height="54" alt="LinkedIn" /></a>
-				<a href="https://plus.google.com/u/0/115310309002266841677/posts"><img src="{% static 'img/gp.jpg'%}" width="54" height="54" alt="GPlus" /></a>
-			</div>
-			<div id="social-icons2">
-				<a href="https://www.facebook.com/kyle.boos.35"><img src="{% static 'img/fb.jpg'%}" width="54" height="54" alt="Email" /></a>
-				<a href="mailto:kyle.boos21@gmail.com"><img src="{% static 'img/email.jpg'%}" width="54" height="54" alt="Facebook" /></a>
-			</div>
+    <footer class="footer">
+		
 			
+		<div id="contact-container">			
 			<img id="contact-image" src="{% static 'img/default.jpg'%}"></img>
 		</div>
 		
 		<div id ="footer-tab-container">
+			<div id="social-icons">
+				<a href="https://www.linkedin.com/in/kyleboos/"><img src="{% static 'img/li.jpg'%}" width="54" height="54" alt="LinkedIn" /></a>
+				<a href="https://plus.google.com/u/0/115310309002266841677/posts"><img src="{% static 'img/gp.jpg'%}" width="54" height="54" alt="GPlus" /></a>
+				<a href="https://www.facebook.com/kyle.boos.35"><img src="{% static 'img/fb.jpg'%}" width="54" height="54" alt="Email" /></a>
+				<a href="mailto:kyle.boos21@gmail.com"><img src="{% static 'img/email.jpg'%}" width="54" height="54" alt="Facebook" /></a>
+			</div>
 			<ul id="tab-container">
-				<li class="current-menu-item"><a>About</a></li>
-				<li class = "menu-item"><a>Projects</a></li>
-				<li class = "menu-item"><a>Resume</a></li>
-				<li class = "menu-item"><a>Blog</a></li>
+				<li id="about-tab" class="current-menu-item"><a href="#">About</a></li>
+				<li id="projects-tab" class = "menu-item"><a href="#">Projects</a></li>
+				<li id="resume-tab" class = "menu-item"><a href="#">Resume</a></li>
+				<li id="blog-tab" class = "menu-item"><a href="#">Blog</a></li>
 			</ul>
 		</div>
         
     </footer>
 	
 	<script src="{% static 'js/jquery.js' %}"></script>
+	<script src="{% static 'js/kbjs.js' %}"></script>
 </body>
 </html>

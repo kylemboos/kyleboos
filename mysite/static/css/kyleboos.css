@@ -37,16 +37,24 @@ a{
 	height:700px;
 	overflow: auto;
 	
+	
 
 	
 	
 }
 
 #about-content{
-	margin-right: 30%;
+	margin-right: 30%;	
+}
 
-	
-	
+#blog-content{
+	margin-right: 30%;	
+}
+#resume-content{
+	margin-right: 30%;	
+}
+#project-content{
+	margin-right: 30%;	
 }
 
 .about-p{
@@ -97,14 +105,17 @@ a{
 }
 
 #social-icons{
-	left: 70%;
-	position: relative;
+	bottom:100px;
+	width: 54px;
+	left:2%;
+	padding:6px;
+	position: fixed;
 }
-#social-icons2{
-	bottom: -5px;
-	left: 70%;
-	position: relative;
+
+#social-icons a img{
+	margin:5px;
 }
+
 
 #contact-container{
 	
@@ -135,12 +146,14 @@ li{
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	font-size: 0.9em;
 	bottom: -10px;
-	left: 1%;
+	left: 0%;
 	height: 8%;
 	position: fixed;
 }
 
-
+.hidden{
+	display:none;
+}	
 
 
 
@@ -156,4 +169,4 @@ footer {
 	font-style: normal;
 	font-weight: normal;
 	line-height: 1.2em;
-}
+}	
