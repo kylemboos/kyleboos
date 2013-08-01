@@ -42,11 +42,8 @@
 				<a href="https://www.facebook.com/kyle.boos.35"><img src="{% static 'img/fb.jpg'%}" width="54" height="54" alt="Email" /></a>
 				<a href="mailto:kyle.boos21@gmail.com"><img src="{% static 'img/email.jpg'%}" width="54" height="54" alt="Facebook" /></a>
 			</div>
-			<ul id="tab-container">
-				<li id="about-tab" class="current-menu-item"><a href="#">About</a></li>
-				<li id="projects-tab" class = "menu-item"><a href="#">Projects</a></li>
-				<li id="blog-tab" class = "menu-item"><a href="#">Blog</a></li>
-			</ul>
+			{% block menu-tabs %}
+			{% endblock %}
 		</div>
         
     </footer>

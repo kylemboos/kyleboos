@@ -38,16 +38,23 @@ a{
 
 #about-content{
 	margin-right: 30%;	
+	-webkit-animation: fadein 3s;
+	animation: fadein 3s;
+    -moz-animation: fadein 3s;
 }
 
 #blog-content{
-	margin-right: 30%;	
+	margin-right: 30%;
+	-webkit-animation: fadein 3s;
+	animation: fadein 3s;
+    -moz-animation: fadein 3s;	
 }
-#resume-content{
-	margin-right: 30%;	
-}
+
 #project-content{
-	margin-right: 30%;	
+	margin-right: 30%;
+	-webkit-animation: fadein 3s;
+	animation: fadein 3s;
+    -moz-animation: fadein 3s;	
 }
 
 #archive-content{
@@ -106,6 +113,7 @@ a{
 	display: block;
 	height: 257px;
 	width: 384px;
+
 	
 }
 
@@ -115,6 +123,7 @@ a{
 	left:2%;
 	padding:6px;
 	position: fixed;
+	
 }
 
 #social-icons a img{
@@ -145,6 +154,7 @@ li{
 	margin: 0;
 	height:60px;
 	
+	
 }
 
 
@@ -154,13 +164,14 @@ li{
 	height: 8%;
 	position: fixed;
 	bottom: -10px;
+	-webkit-animation: fadein 1s;
+	animation: fadein 1s;
+    -moz-animation: fadein 1s;
 }
 
 .hidden{
 	display:none;
 }	
-
-
 
 /* Set the fixed height of the footer here */
 footer {
@@ -175,4 +186,29 @@ footer {
 	font-style: normal;
 	font-weight: normal;
 	line-height: 1.2em;
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }	

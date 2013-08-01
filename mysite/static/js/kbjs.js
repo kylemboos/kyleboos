@@ -1,5 +1,5 @@
 /*! Javascript for the personal website of Kyle Boos
-*/
+
 
 $("#tab-container li").click(function(){
   $("#tab-container li").removeClass("current-menu-item");
@@ -31,3 +31,4 @@ $("#tab-container li").click(function(){
   }
 });
 
+*/

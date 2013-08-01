@@ -14,26 +14,15 @@
 			</p>
 			<p class= "about-p">
 				This is my about page. This is my about page. This is my about page. This is my about page. This is my about page. This is my about page. This is my about page.This is my about page.
-			</p>
-			
-
-			
-		</div>
-		<div class="hidden" id="blog-content">
-			<h2 id= "about-header">Blog</h2>
-			<p class= "about-p">
-				Coming Soon!
-			</p>
-		</div>
-		
-		<div class= "hidden" id="archive-content">	
-		</div>
-		
-		<div class="hidden" id="project-content">
-			<h2 id= "about-header">Projects and Research</h2>
-			<p class= "about-p">
-				Coming Soon!
-			</p>
+			</p>	
 		</div>
 	</div>
+{% endblock %}
+
+{% block menu-tabs %}
+	<ul id="tab-container">
+		<li id="about-tab" class="current-menu-item"><a href="/about">About</a></li>
+		<li id="projects-tab" class = "menu-item"><a href="/projects">P + R</a></li>
+		<li id="blog-tab" class = "menu-item"><a href="/blog">Blog</a></li>
+	</ul>
 {% endblock %}

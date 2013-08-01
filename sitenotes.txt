@@ -1,30 +1,21 @@
 python modules for the site:
 
--blog
--content
---------------------------------------------------------------------------
+ready to start adding content!
 
-body
-	main-content
-		narrow-content
-		
-		
-footer
-	contact-container
-		icon-holder
-			ul
-		image-holder
-			a/img
-	tab-container
-		menu-list(ul)
-			tabs
+About:
+	
 
---------------------------------------------------------------------------
+Projects and Research:
+	
+	-Depth Sensor AR
+	-Robocup UCI
+	-luci
+	-AAV
+	-Orcaella
+	-Massteroids
 
-need to relink all of the social media icons
+Blog:
 
-need to fix pointer for tab links
-
-need to use javascript to correctly add the correct active tab class
+	-blog topics?
 			
-		
+!Need to update resume and put up a pdf for it
