@@ -2,12 +2,26 @@
 
 
 {% block narrow-content %}
+
+{% load staticfiles %}
 	<div class= "narrow-content">
 		<div id="project-content">
 			<h2 id= "about-header">Projects and Research</h2>
-			<p class= "about-p">
-				Coming Soon!
-			</p>
+			</br>
+			<div class="feature-holder">
+				<div class="feature-left">
+					<p id="luci-t" class="feature-title">Learn UCI</p>
+					<div class="feature-image-snapshot"> <a href="#"><img src= "{% static 'img/luci.jpg'%}"></img></a></div>
+					<div class ="feature-link"><a href="#">interesting...</a></div>
+				</div>
+				
+				<div class="feature-right">
+					<p id="luci-d" class="feature-description">
+						this is the description for luci.
+					</p>
+				</div>
+			</div>
+			
 		</div>
 	</div>
 {% endblock %}

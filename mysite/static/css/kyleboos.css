@@ -57,6 +57,63 @@ a{
     -moz-animation: fadein 3s;	
 }
 
+.feature-holder{
+	height:auto;
+	width:600px;
+	display:block;
+	margin-top: 50px;
+}	
+
+.feature-image-snapshot{
+	width:150px;
+	height:150px;
+}
+
+.feature-left{
+	width:25%;
+	float:left;
+}
+
+.feature-right{
+	width:75%;
+	float:left;
+	padding-left:10px;
+
+}
+.feature-link{
+	padding-top: 3px;
+	margin-left: 22%;
+}
+
+.feature-link a {
+	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+	font-size: 1.1em;
+	font-style:italic;
+	color: #273132;
+}
+
+.feature-link a:hover, a:focus {
+	color: #273132;
+}
+
+.feature-title{
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 1.6em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.4em;
+	font-weight:bold;
+}
+
+.feature-description{
+	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+	font-size: 1.2em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.4em;
+	padding-left:15px;
+}
+
 #archive-content{
 	display: block;
 	height: 450px;
@@ -113,8 +170,6 @@ a{
 	display: block;
 	height: 257px;
 	width: 384px;
-
-	
 }
 
 #social-icons{
