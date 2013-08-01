@@ -11,6 +11,8 @@ urlpatterns = patterns('',
 	 url(r'^projects/', 'mysite.content.views.projects', name='projects'),
 	 url(r'^resume/', 'mysite.content.views.resume', name='resume'),
 	 url(r'^about', 'mysite.content.views.about', name='about'),
+	 url(r'^favicon\.ico$', 'django.views.generic.simple.redirect_to', {'url': 'mysite/static/images/favicon.ico'}),
+
     # url(r'^mysite/', include('mysite.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
