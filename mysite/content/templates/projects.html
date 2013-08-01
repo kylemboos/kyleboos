@@ -6,11 +6,25 @@
 {% load staticfiles %}
 	<div class= "narrow-content">
 		<div id="project-content">
-			<h2 id= "about-header">Projects and Research</h2>
+			<h2 id= "about-header">Projects & Research</h2>
 			</br>
+			
 			<div class="feature-holder">
+				<p id="depth-t" class="feature-title">Augmented Reality w/ Depth</p>
 				<div class="feature-left">
-					<p id="luci-t" class="feature-title">Learn UCI</p>
+					<div class="feature-image-snapshot"> <a href="#"><img src= "{% static 'img/kinect.jpg'%}"></img></a></div>
+					<div class ="feature-link"><a href="#">interesting...</a></div>
+				</div>
+				
+				<div class="feature-right">
+					<p id="depth-d" class="feature-description">
+						this is the description for depth sensor based AR.
+					</p>
+				</div>
+			</div>
+			<div class="feature-holder">
+				<p id="luci-t" class="feature-title">Learn UCI</p>
+				<div class="feature-left">
 					<div class="feature-image-snapshot"> <a href="#"><img src= "{% static 'img/luci.jpg'%}"></img></a></div>
 					<div class ="feature-link"><a href="#">interesting...</a></div>
 				</div>
@@ -21,7 +35,6 @@
 					</p>
 				</div>
 			</div>
-			
 			
 			
 		</div>

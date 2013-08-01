@@ -25,3 +25,6 @@ Blog:
 	-where ive been
 			
 !Need to update resume and put up a pdf for it
+Need to add a powered by footer with my name
+
+http://yesyous.com/KevinJonaitis/projects/147/autonomous-android-vehicle-aar/
