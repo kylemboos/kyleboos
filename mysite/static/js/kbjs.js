@@ -37,3 +37,10 @@ var luciheight = $("#luci-t").height();
 $("#luci-d").css("margin-top", luciheight + 5);
 
 */
+
+var imgheight = $("#contact-image").height();
+var halfimgwidth = ($("#contact-image").width())/2;
+var halfresumewidth = ($("#resume-container").width()/2);
+console.log(halfimgwidth + halfresumewidth);
+$("#resume-container").css("bottom", imgheight + 4);
+$("#resume-container").css("margin-right", (halfimgwidth + (halfresumewidth/2)));
