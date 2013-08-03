@@ -38,11 +38,9 @@ $("#luci-d").css("margin-top", luciheight + 5);
 
 */
 
-//grab the active feature, and store its id and remove it being active
-//hide every feature-holder, remove the one with the new id
-//and set it to active
-//need to check for over and under appropriately
 
+
+//js for swithing project content
 var maxActive = 3;
 $(".next").click(function(){
 	var active = parseInt($(".feature-active").attr('id'));
@@ -58,7 +56,6 @@ $(".next").click(function(){
 	$(".feature-holder").addClass("hidden");
 	$("#"+active).removeClass("hidden");
 	$("#"+active).addClass("feature-active");
-	
 });
 
 $(".prev").click(function(){
@@ -77,9 +74,18 @@ $(".prev").click(function(){
 	$("#"+active).addClass("feature-active");
 });
 
+//positioning for resume link
 var imgheight = $("#contact-image").height();
 var halfimgwidth = ($("#contact-image").width())/2;
 var halfresumewidth = ($("#resume-container").width()/2);
 console.log(halfimgwidth + halfresumewidth);
 $("#resume-container").css("bottom", imgheight + 4);
 $("#resume-container").css("margin-right", (halfimgwidth + (halfresumewidth/2)));
+
+//js for placing project buttons
+var p = $("#1");
+var fp = p.position();
+$(".prev").css("left", fp.left - 50);
+$(".prev").css("top", fp.top + 125);
+$(".next").css("left", fp.left - 50);
+$(".next").css("top", fp.top + 155);
