@@ -38,6 +38,45 @@ $("#luci-d").css("margin-top", luciheight + 5);
 
 */
 
+//grab the active feature, and store its id and remove it being active
+//hide every feature-holder, remove the one with the new id
+//and set it to active
+//need to check for over and under appropriately
+
+var maxActive = 3;
+$(".next").click(function(){
+	var active = parseInt($(".feature-active").attr('id'));
+	$(".feature-active").removeClass("feature-active");
+	active++;
+	if(active > maxActive){
+		active = 1;
+	}
+	if(active < 1){
+		active = maxActive;
+	}
+		
+	$(".feature-holder").addClass("hidden");
+	$("#"+active).removeClass("hidden");
+	$("#"+active).addClass("feature-active");
+	
+});
+
+$(".prev").click(function(){
+	var active = parseInt($(".feature-active").attr('id'));
+	$(".feature-active").removeClass("feature-active");
+	active--;
+	if(active > maxActive){
+		active = 1;
+	}
+	if(active < 1){
+		active = maxActive;
+	}
+		
+	$(".feature-holder").addClass("hidden");
+	$("#"+active).removeClass("hidden");
+	$("#"+active).addClass("feature-active");
+});
+
 var imgheight = $("#contact-image").height();
 var halfimgwidth = ($("#contact-image").width())/2;
 var halfresumewidth = ($("#resume-container").width()/2);
