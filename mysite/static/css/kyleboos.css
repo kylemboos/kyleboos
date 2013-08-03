@@ -20,11 +20,6 @@ a{
 	
 }
 
-/*
-::-webkit-scrollbar { 
-    display: none;
-}
-*/
 
 
 .narrow-content{
@@ -57,6 +52,19 @@ a{
     -moz-animation: fadein 3s;	
 }
 
+#feature-nav-top{
+position:fixed;
+left: 17%;
+top:52%;
+
+}
+
+#feature-nav-bottom{
+position:fixed;
+left: 17%;
+top:57%;
+}
+
 .feature-holder{
 	height:auto;
 	width:600px;
@@ -66,6 +74,11 @@ a{
 }	
 
 .feature-image-snapshot{
+	width:150px;
+	height:150px;
+}
+
+.feature-image-snapshot img{
 	width:150px;
 	height:150px;
 }
@@ -139,6 +152,14 @@ a{
 #about-header{
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	font-size: 4.5em;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.1em;
+}
+
+#project-header{
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 3.8em;
 	font-style: normal;
 	font-weight: 500;
 	line-height: 1.1em;
