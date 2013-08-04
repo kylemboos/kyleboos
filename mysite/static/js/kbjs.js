@@ -80,7 +80,7 @@ var halfimgwidth = ($("#contact-image").width())/2;
 var halfresumewidth = ($("#resume-container").width()/2);
 console.log(halfimgwidth + halfresumewidth);
 $("#resume-container").css("bottom", imgheight + 4);
-$("#resume-container").css("margin-right", (halfimgwidth + (halfresumewidth/2)));
+$("#resume-container").css("margin-right", (halfimgwidth + (halfresumewidth/2))/1.5);
 
 //js for placing project buttons
 var p = $("#1");

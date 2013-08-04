@@ -145,21 +145,30 @@ position:fixed;
 	font-style: normal;
 	font-weight: normal;
 	line-height: 1.4em;
+	color: #485c5d;
+}
+
+.about-p1{
+    font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+	margin: 1em 0;
+	font-size: 1.4em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.4em;
+	color: #485c5d;
 }
 
 #about-header{
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-size: 4.5em;
+	font-family: sans-serif;
+	font-size: 3.5em;
 	font-style: normal;
-	font-weight: 500;
 	line-height: 1.1em;
 }
 
 #project-header{
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-family: sans-serif;
 	font-size: 3.8em;
 	font-style: normal;
-	font-weight: 500;
 	line-height: 1.1em;
 }
 
@@ -222,12 +231,12 @@ position:fixed;
 #resume-container a{
 	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
 	font-size: 1.1em;
-	color: #CC0E0E;
+	color: #273132;
 	text-transform: none;
 }
 
 #resume-container a:hover, a:focus {
-	color: #CC0E0E;
+	color: #273132;
 }
 
 li{
