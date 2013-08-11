@@ -52,6 +52,42 @@ a{
     -moz-animation: fadein 3s;	
 }
 
+.blog-post{
+	margin-top:25px;
+}
+
+.blog-date{
+	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+	font-size: 1.2em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.0em;
+	color: #beccdb;
+	text-align:right;
+
+	
+}
+
+.blog-title a{
+	font-family: 'Simonetta', cursive;
+	font-size:35px;
+	color: #c30;
+}
+
+.blog-desc{
+	margin-top:10px;
+	
+}
+.blog-desc b{
+	display: block;
+	font-size: 24px;
+	line-height: 1em;
+}
+
+.blog-desc p{
+	font-family: 'Fauna One', serif;
+}
+
 #feature-nav-top{
 position:fixed;
 
