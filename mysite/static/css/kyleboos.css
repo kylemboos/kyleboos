@@ -57,6 +57,7 @@ a{
 	font-style: normal;
 	line-height: 1.1em;
 	color:#160127;
+	margin-bottom:25px;
 		
 }
 
@@ -94,6 +95,16 @@ a{
 
 .blog-desc p{
 	font-family: 'Fauna One', serif;
+}
+
+.blog-p{
+	font-family: 'Fauna One', serif;
+	margin: 1em 0;
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.6em;
+	
 }
 
 #feature-nav-top{
