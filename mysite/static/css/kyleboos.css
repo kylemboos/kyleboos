@@ -38,12 +38,7 @@ a{
     -moz-animation: fadein 3s;
 }
 
-#blog-content{
-	margin-right: 30%;
-	-webkit-animation: fadein 3s;
-	animation: fadein 3s;
-    -moz-animation: fadein 3s;	
-}
+
 
 #project-content{
 	margin-right: 30%;
@@ -80,6 +75,34 @@ a{
 	font-family: 'Simonetta', cursive;
 	font-size:32px;
 	color: #c30;
+}
+
+.blog-content{
+	margin-right: 30%;
+	-webkit-animation: fadein 3s;
+	animation: fadein 3s;
+    -moz-animation: fadein 3s;	
+}
+
+.blog-content img{
+	margin-top:25px;
+	margin-bottom:15px;
+	margin-left:25%;
+	display:block;
+}
+
+#cuci{
+	margin-top:25px;
+	margin-bottom:15px;
+	margin-left:13%;
+	display:block;
+}
+
+#webjam{
+	margin-top:25px;
+	margin-bottom:15px;
+	margin-left:0%;
+	display:block;
 }
 
 .blog-desc{
