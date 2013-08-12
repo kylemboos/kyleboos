@@ -20,8 +20,6 @@ a{
 	
 }
 
-
-
 .narrow-content{
 	margin: 0px auto 0;
 	min-width: 500px;
@@ -37,7 +35,6 @@ a{
 	animation: fadein 3s;
     -moz-animation: fadein 3s;
 }
-
 
 
 #project-content{
@@ -137,6 +134,8 @@ a{
 	color:#2E0854;
 }
 
+
+
 #feature-nav-top{
 position:fixed;
 
@@ -201,6 +200,8 @@ position:fixed;
 	line-height: 1.4em;
 	font-weight:bold;
 	margin-bottom: 3%;
+	color:#00B600;
+
 }
 
 .feature-description{
@@ -241,6 +242,34 @@ position:fixed;
 	font-weight: normal;
 	line-height: 1.4em;
 	color: #485c5d;
+}
+
+.blue span{
+	color:#0000C1;
+
+}
+
+.blue a{
+	text-decoration: none;
+}
+
+
+.red span{
+	color:#C30000;
+
+}
+
+.red a{
+	text-decoration: none;
+}
+
+.green span{
+	color:#00B600;
+
+}
+
+.green a{
+	text-decoration: none;
 }
 
 #about-header{
@@ -333,6 +362,18 @@ li{
 	padding-top:3px;
 	transition: background 0.5s ease-in;
 	border-radius: 2px 2px 0 0;
+	position:relative;
+}
+
+li img{
+	position: absolute;
+    top: 0;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    width: 40px;
+    height: 15%;
+    margin: auto;
 }
 
 #footer-tab-container{
