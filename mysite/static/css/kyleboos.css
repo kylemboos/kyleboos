@@ -73,13 +73,12 @@ a{
 	line-height: 1.0em;
 	color: #beccdb;
 	text-align:right;
-
-	
+	height:100%;
 }
 
 .blog-title a{
 	font-family: 'Simonetta', cursive;
-	font-size:35px;
+	font-size:32px;
 	color: #c30;
 }
 
@@ -104,7 +103,15 @@ a{
 	font-style: normal;
 	font-weight: normal;
 	line-height: 1.6em;
-	
+}
+
+.blog-p a{
+	color:#2E0854;
+	font-style:italic;
+}
+
+.blog-p a:hover, a:focus {
+	color:#2E0854;
 }
 
 #feature-nav-top{

@@ -1,3 +1,12 @@
+css is updated with all of the blog stuff
+base got updated with specific fonts that were used in the blog
+settings got updated with to point to the new folder for posts.
+urls got updated to point to the new folder
+views redirects traffic to the posts.
+blog.html + folder +post1.html
+
+links: cuci, orcaella, bootstrap, node.js, 
+
 This is probably going to get lengthy so bear with me. These posts probably won't be this long in the future.
 
 Ever since I began programming, well in the beginning of college, web programming and design has always been something that has looked very interesting to me. I looked up the basic structure of web pages... integrating some style sheets, javascript, and also began to understand the basics of http requests and the uses of a backend server language like php. But it doesn't take long to realize just how far the rabbit hole can go when it comes to developing in the web. Combined with the fact that the topic really isn't covered in the university makes it a pretty daunting subject to approach without some motivation...
