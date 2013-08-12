@@ -51,6 +51,14 @@ a{
 	animation: fadein 3s;
     -moz-animation: fadein 3s;	
 }
+.blog-header{
+	font-family: 'Simonetta', cursive;
+	font-size: 2.5em;
+	font-style: normal;
+	line-height: 1.1em;
+	color:#160127;
+		
+}
 
 .blog-post{
 	margin-top:25px;

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+
+{% block narrow-content %}
+	<div class= "narrow-content">
+		<div id="blog-content">
+			<h2 class= "blog-header">Hello Web... How I Started.</h2>
+			<p class= "about-p">
+				My first blog post and my introduction to web development.
+			</p>
+			
+		</div>
+	</div>
+{% endblock %}
+
+{% block menu-tabs %}
+	<ul id="tab-container">
+		<li id="about-tab" class="menu-item"><a href="/about">About</a></li>
+		<li id="projects-tab" class = "menu-item"><a href="/projects">P + R</a></li>
+		<li id="blog-tab" class = "current-menu-item"><a href="/blog">Blog</a></li>
+	</ul>
+{% endblock %}
