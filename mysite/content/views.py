@@ -18,7 +18,7 @@ def post(request):
  
 	
 def projects(request):
-	return render_to_response('projects.html')
+	return render_to_response('m_index.html')
 	
 def resume(request):
 	return render_to_response('resume.html')
