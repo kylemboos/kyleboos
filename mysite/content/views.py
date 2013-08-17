@@ -1,10 +1,10 @@
 from django.shortcuts import render_to_response
  
 def home(request):
-    return render_to_response('index.html')
+    return render_to_response('m_sindex.html')
 	
 def about(request):
-    return render_to_response('index.html')
+    return render_to_response('m_index.html')
 	
 def blog(request):
 	return render_to_response('blog.html')
@@ -18,7 +18,8 @@ def post(request):
  
 	
 def projects(request):
-	return render_to_response('m_index.html')
+	return render_to_response('m_projects.html')
 	
 def resume(request):
 	return render_to_response('resume.html')
+	
